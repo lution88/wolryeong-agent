@@ -1,0 +1,32 @@
+{
+	"name": "wolryeong-agent",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"poll": "node --env-file=.env scripts/poll.ts",
+		"build": "vite build",
+		"start": "node dist/server.mjs",
+		"test": "node --test src/domain/*.test.ts",
+		"check:types": "tsc --noEmit"
+	},
+	"overrides": {
+		"@earendil-works/pi-ai": "1.4.0",
+		"@earendil-works/pi-agent-core": "1.4.0"
+	},
+	"dependencies": {
+		"@flue/runtime": "^2.3.0",
+		"@flue/telegram": "^2.3.0",
+		"croner": "^11.0.0",
+		"grammy": "^1.46.0",
+		"hono": "^4.13.17",
+		"valibot": "^1.5.0"
+	},
+	"devDependencies": {
+		"@flue/cli": "^2.3.0",
+		"@flue/vite": "^2.3.0",
+		"@types/node": "^22.20.5",
+		"typescript": "^7.0.2",
+		"vite": "^8.3.7"
+	}
+}

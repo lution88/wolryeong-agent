@@ -1,0 +1,7 @@
+{
+	"birthDate": "2026-06-10",
+	"returnDate": "2027-03-02",
+	"address": "서울 ○○구 ○○동",
+	"daycares": ["○○국공립어린이집"],
+	"doneIds": ["vax-2m", "vax-4m", "checkup-1", "money-parent-pay", "money-child-allowance", "daycare-waitlist"]
+}
